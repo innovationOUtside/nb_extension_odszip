@@ -10,7 +10,7 @@ To install:
 
 To upgrade a current installation to the latest repo version without updating dependencies:
 
-``pip install --upgrade --no-deps git+https://github.com/innovationOUtside/nb_extension_odszip.git` 
+`pip install --upgrade --no-deps git+https://github.com/innovationOUtside/nb_extension_odszip.git` 
 
 Enable extension:
 
