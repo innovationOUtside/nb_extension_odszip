@@ -3,11 +3,14 @@ Jupyter notebook extension for zipping notebook and html file together
 
 ## Installation
 
-`pip install git+https://github.com/innovationOUtside/nb_extension_odszip.git` 
 
-To update to the most recent version contained in this repo without updating other dependencies:
+To install:
 
-`pip install --upgrade --no-deps git+https://github.com/innovationOUtside/nb_extension_odszip.git` 
+`pip install git+https://github.com/innovationOUtside/nb_extension_odszip.git`
+
+To upgrade a current installation to the latest repo version without updating dependencies:
+
+``pip install --upgrade --no-deps git+https://github.com/innovationOUtside/nb_extension_odszip.git` 
 
 Enable extension:
 
