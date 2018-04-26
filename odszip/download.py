@@ -42,8 +42,8 @@ def make_download_bundle(abs_nb_path, staging_dir, tools):
 	# Add the notebook
 	shutil.copy2(abs_nb_path, os.path.join(staging_dir, notebook_basename))
 	
-	# Include HTML version of file
-	cmd='jupyter nbconvert --to html "{abs_nb_path}" --output-dir "{staging_dir}"'.format(abs_nb_path=abs_nb_path,staging_dir=staging_dir)
+	# Include HTML version of file with embedded images
+	cmd='jupyter nbconvert --to html_embed "{abs_nb_path}" --output-dir "{staging_dir}"'.format(abs_nb_path=abs_nb_path,staging_dir=staging_dir)
 	os.system(cmd)
 
 	zip_file = shutil.make_archive(staging_dir, format='zip', root_dir=staging_dir, base_dir='.')
